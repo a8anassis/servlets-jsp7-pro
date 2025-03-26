@@ -28,6 +28,7 @@ public class TeachersViewController extends HttpServlet {
                 new Teacher(5L, "Ελένη", "Γεωργίου"),
                 new Teacher(6L, "Αθανάσιος", "Aνδρούτσος")
         );
+        //teachers = teacherService.getAllTeachers();
 
         String message = "";
 
